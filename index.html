@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog-Signup</title>
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="../js/signup.js" defer></script>
+</head>
+<body>
+    <h1>Have an account? </h1>
+    <div id="container">
+        <form>
+            <section id="1stLayer">
+                <input class="inp" type="text" placeholder="First Name">
+                <input class="inp" type="text" placeholder="Sur Name">
+                <br>
+            </section>
+            <input class="inp" required id="Mob" type="text" placeholder="Mobile Number or Email" >
+            <br>
+            <input class="inp" required id="Pass" type="text" placeholder="New Password">
+            <br> 
+            <label id="doblab">Date Of Birth</label> 
+            <br><br>
+            <section id="selop">
+            <select>
+                <option>Date</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select> 
+            <select>
+                <option>MONTH</option>
+                <option>January</option>
+                <option>February</option>
+                <option>March</option>
+                <option>April</option>
+                <option>May</option>
+                <option>June</option>
+                <option>July</option>
+                <option>August</option>
+                <option>September</option>
+                <option>October</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <select>
+                <option>YYYY</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+            </select>
+            </section>
+            <br>
+            <label id="gen">Gender</label>
+            <section id="gensec">
+            <div class="genderCont">
+                <label>Male</label>
+                <input type="radio" name="Gender">
+            </div>
+            <div class="genderCont">
+                <label>Female</label>
+                <input type="radio" name="Gender">
+            </div>
+            <div class="genderCont">
+                <label>Others</label>
+                <input type="radio" name="Gender">
+            </div>
+            </section>
+            <p id="info">People who use our service may have uploaded your data 
+                By clicking Sign Up, you agree to our terms, Primary policy. 
+                For more information about privacy practices, see the  Privacy Statement.
+                We'll occasionally send you account-related emails
+            </p>
+            <input type="submit" id="signup" value="Signup" onclick="storeTheUserInfo()">
+        </form>
+    </div>
+    <a href="./login.html"> <button id="loginBut">Login</button></a>
+</body>
+</html>
